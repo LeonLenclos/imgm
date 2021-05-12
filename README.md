@@ -1,3 +1,4 @@
+# imgm
 
 ## Documentation
 
@@ -18,17 +19,11 @@ The imgm window is divided into three parts. from top to bottom :
 - The tools panel
 - The status bar
 
-#### The frame
+**The frame** is a rectangle which is the size of the game (800x600 px). It is used to edit and preview the game.
 
-The frame is a rectangle which is the size of the game (800x600 px). It is used to edit and preview the game.
+**The tools panel** contain buttons and other inputs that are used to modify the game and navigate between imgm modes.
 
-#### The tools panel
-
-The tools panel contain buttons and other inputs that are used to modify the game and navigate between imgm modes.
-
-#### The status bar
-
-The status bar contain information about imgm state :
+**The status bar** contain information about imgm state :
 - mode: In which mode is imgm
 - scene: What is the current selected scene
 - mood: How does imgm feel
