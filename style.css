@@ -1,0 +1,72 @@
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family:  monospace;
+}
+
+body {
+  background:black;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#editorContainer{
+	padding: 0;
+  height: 700px;
+	width: 820px;
+	
+	border:3px solid grey;
+	background:lightgrey;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#editorContainer{
+	
+}
+
+#frameContainer{
+	margin:0 auto;
+	border:3px solid gray;
+}
+#frameContainer #gameContainer {
+	position: absolute;
+}
+
+
+#toolPanelsContainer{
+}
+
+#toolPanelsContainer div{
+  text-align: center;
+	
+	margin:5px;
+}
+
+#toolPanelsContainer div *{
+  margin: 3 1px;
+}
+
+hr, #toolPanelsContainer div hr {
+	display: inline;
+	border: none;
+	margin: 0 10px;
+}
+
+button, select, option, input {
+	font-size: small;
+}
+
+#statusBar {
+	display: flex;
+	justify-content: space-evenly;
+	background: gray;
+	color:white;
+	text-align: center;
+	margin: 0;
+	padding:1px;
+}
