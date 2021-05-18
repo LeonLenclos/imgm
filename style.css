@@ -2,7 +2,6 @@ html, body{
 	margin:0;
 	padding:0;
 	height:100%;
-	font-family:  monospace;
 }
 
 body {
@@ -10,45 +9,52 @@ body {
 	display:flex;
 	align-items:center;
 	justify-content:center;
+	font-family:monospace;
 }
 
 #editorContainer{
-	padding: 0;
-  height: 700px;
-	width: 820px;
-	
-	border:3px solid grey;
-	background:lightgrey;
-	
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+  height: 740px;
+	width: 840px;
+	background:#aaa;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 
-#editorContainer{
-	
+h1 {
+	font-size:small;
+	margin:0;
+	padding:0;
+	text-align: center;
+	color:#333;
+	margin-bottom: 1px;
 }
 
 #frameContainer{
 	margin:0 auto;
-	border:3px solid gray;
+	border:10px solid #333;
+	border-radius:7px;
 }
-#frameContainer #gameContainer {
+
+#frameContainer #imgmGame {
 	position: absolute;
 }
 
-
-#toolPanelsContainer{
+#toolPanelsContainer {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 #toolPanelsContainer div{
-  text-align: center;
-	
 	margin:5px;
 }
 
 #toolPanelsContainer div *{
-  margin: 3 1px;
+  margin: 3px 1px;
 }
 
 hr, #toolPanelsContainer div hr {
@@ -64,9 +70,14 @@ button, select, option, input {
 #statusBar {
 	display: flex;
 	justify-content: space-evenly;
-	background: gray;
+	background: #333;
 	color:white;
+	font-size: small;
 	text-align: center;
 	margin: 0;
 	padding:1px;
+}
+
+#statusBar b {
+	color:#aaa;
 }
