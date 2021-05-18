@@ -34,6 +34,8 @@ h1 {
 }
 
 #frameContainer{
+	width:800px;
+	height:600px;
 	margin:0 auto;
 	border:10px solid #333;
 	border-radius:7px;
