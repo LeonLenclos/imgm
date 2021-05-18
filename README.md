@@ -1,5 +1,8 @@
 # imgm
 
+- try imgm on github: https://leonlenclos.github.io/imgm/
+- try imgm on itch.io: https://leonlenclos.itch.io/imgm/
+
 ## Documentation
 
 imgm is an **image map game maker**. It allows you to create simple point and click games that use the html image map technology.
