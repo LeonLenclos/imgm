@@ -45,6 +45,7 @@ function importImage(){
 	};
 
 	this.draw = function(){
+		background(0);
 		if(img){
 			if(mouseLocked){
 				cursor('grabbing');
@@ -52,7 +53,6 @@ function importImage(){
 			else {
 				cursor('grab')
 			}
-			background(0);
 			imageMode(CENTER)
 			image(img, x, y, img.width * scale, img.height * scale);
 		}
